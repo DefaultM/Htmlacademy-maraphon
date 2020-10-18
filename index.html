@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сайт Анжелы Плюшкиной</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="first-header">
+      <nav>
+        <div class="header-logo">
+          <a href="#"><img src="img/logo.svg" alt="" /></a>
+        </div>
+        <ul class="header-nav">
+          <li><a href="#articles">Статьи</a></li>
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#writeme">Написать мне</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section id="articles" class="cards">
+          <div class="header">
+            <h1>Все статьи</h1>
+            <div class="combobox">
+              <select name="" id="" class="select-tag">
+                <option selected>Выберите тему</option>
+                <option value="путешествия">Путешествия</option>
+                <option value="город">Город</option>
+                <option value="книги">Книги</option>
+                <option value="фотографии">Фотографии</option>
+                <option value="рецепты">Рецепты</option>
+                <option value="все">Все статьи</option>
+              </select>
+            </div>
+          </div>
+          <div class="preview-articles">
+            <article class="card card-small">
+              <img class="card-img" src="img/street.png" alt="улица" />
+              <div class="card-content">
+                <h2 class="card-header">Путешествие в Берлин в августе</h2>
+                <p class="card-text">
+                  Летний месяц я провел в столице Германии вместе с друзьями. И
+                  вот как это было!
+                </p>
+                <div class="card-tag">
+                  <span class="card-icon icon-tag"
+                    >Теги:
+                    <a href="#">путешествия</a>
+                  </span>
+                  <time datetime="2020-09-29"> 29.09.2020</time>
+                </div>
+              </div>
+            </article>
+            <article class="card card-small">
+              <img class="card-img" src="img/drink.png" alt="напиток" />
+              <div class="card-content">
+                <h2 class="card-header">Где выпить колдбрю в Москве</h2>
+                <p class="card-text">
+                  Собрал для вас список любимых кофеен, где подают лучший летний
+                  напиток.
+                </p>
+                <div class="card-tag">
+                  <span class="card-icon icon-tag"
+                    >Теги:
+                    <a href="#">город</a>
+                  </span>
+                  <time datetime="2020-07-24"> 24.07.2020</time>
+                </div>
+              </div>
+            </article>
+            <article class="card card-small">
+              <img class="card-img" src="img/book.png" alt="книга" />
+              <div class="card-content">
+                <h2 class="card-header">Прочитано: книжные рекомендации</h2>
+                <p class="card-text">
+                  Рассказываю о прочитанных за последнее время книгах: фавориты
+                  и провалы.
+                </p>
+                <div class="card-tag">
+                  <span class="card-icon icon-tag"
+                    >Теги:
+                    <a href="#">книги</a>
+                  </span>
+                  <time datetime="2020-07-15"> 15.07.2020</time>
+                </div>
+              </div>
+            </article>
+            <article class="card card-big">
+              <img class="card-img" src="img/flowers.png" alt="цветы" />
+              <div class="card-content">
+                <h2 class="card-header">Снимки на плёнку</h2>
+                <p class="card-text">
+                  Поделилась с вами весенними фотографиями, и секретами удачных
+                  снимков.
+                </p>
+                <div class="card-tag">
+                  <span class="card-icon icon-tag"
+                    >Теги:
+                    <a href="#">фотографии</a>
+                  </span>
+                  <time datetime="2020-06-29"> 29.06.2020</time>
+                </div>
+              </div>
+            </article>
+            <article class="card card-big">
+              <img class="card-img" src="img/cake.png" alt="улица" />
+              <div class="card-content">
+                <h2 class="card-header">Домашний чизкейк</h2>
+                <p class="card-text">
+                  Что может быть лучше чизкейка с сезонными ягодами? Только
+                  домашний чизкейк!
+                </p>
+                <div class="card-tag">
+                  <span class="card-icon icon-tag"
+                    >Теги:
+                    <a href="#">рецепты</a>
+                  </span>
+                  <time datetime="2020-06-24"> 24.06.2020</time>
+                </div>
+              </div>
+            </article>
+          </div>
+          <a class="button" href="#">Показать еще</a>
+        </section>
+        <section id="about">
+          <article>
+            <h1>Обо мне</h1>
+            <div class="about-content">
+              <div class="left">
+                <img
+                  src="img/girl_smile.png"
+                  alt="девушка улыбается"
+                /><!-- я бы тоже улыбался будь у меня такой пляж -->
+              </div>
+              <div class="right">
+                <p>
+                  Всем привет! Меня зовут Аня, и это мой личный блог. Здесь ты
+                  найдешь рассказы о моих путешествиях, снимки на плёнку,
+                  рецепты, обзоры на книги. В общем, тексты о том, что мне
+                  интересно.<br /><br />
+                  Я работаю копирайтером, поэтому мой блог — это ещё и моё
+                  портфолио. Ниже размещены несколько моих лучших рабочих
+                  текстов. Буду рада новым сотрудничествам!<br /><br />
+                  Если вы хотите написать мне — это можно сделать в соцсетях или
+                  через <a href="#writeme">форму</a>. Всегда приятно услышать
+                  обратную связь от читателей и познакомиться поближе!
+                  <br /><br />
+                  Приятного чтения!
+                </p>
+                <blockquote>
+                  Я верю, что каждый раз пробуя новое, выходящее за зону моего
+                  комфорта, я действительно узнаю настоящую себя.
+                </blockquote>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section id="portfolio">
+          <article>
+            <h1>Портфолио</h1>
+            <div class="cards-portfolio">
+              <article class="preview">
+                <div class="content-preview">
+                  <h2>Блог HTML Academy</h2>
+                  <h3>&laquo;Как учиться продуктивно&raquo;</h3>
+                  <p>
+                    Про основные методы обучения, которые помогут быстро и
+                    надолго запомнить информацию.
+                  </p>
+                </div>
+              </article>
+              <article class="preview">
+                <div class="content-preview">
+                  <h2>Журнал &laquo;LNK&raquo;</h2>
+                  <h3>
+                    &laquo;Зачем поцелуи нужны человеку? И какие они
+                    бывают&raquo;
+                  </h3>
+                  <p>
+                    Поцелуи — повсеместная ежедневная практика. Но зачем люди
+                    целуются? Какие смысли вкладывают в этот ритуал? И где корни
+                    этой практики?
+                  </p>
+                </div>
+              </article>
+              <article class="preview">
+                <div class="content-preview">
+                  <h2>Журнал &laquo;Т — Л&raquo;</h2>
+                  <h3>&laquo;Советы по эффективной удалёеной работе&raquo;</h3>
+                  <p>
+                    Поделилась лайфхаками, которые помогают мне работать
+                    продуктивно из дома.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </article>
+          <a class="button" href="#">Показать еще</a>
+        </section>
+        <section id="writeme">
+          <article>
+            <h1>Написать мне</h1>
+
+            <form class="form-writeme" action="#" method="post">
+              <ul class="form-content">
+                <li>
+                  <label for="name">Ваше имя</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Иван Иванов"
+                    required
+                  />
+                </li>
+                <li>
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="google@gmail.com"
+                    required
+                  />
+                </li>
+
+                <li>
+                  <label for="message">Сообщение</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    minlength="10"
+                    maxlength="200"
+                    placeholder="Напишите здесь ваше сообщение"
+                  ></textarea>
+                </li>
+              </ul>
+              <button class="submit-button" type="submit">Отправить</button>
+            </form>
+          </article>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <nav>
+        <ul class="footer-nav">
+          <li><a href="#">ВК</a></li>
+          <li><a href="#">Телеграм</a></li>
+          <li><a href="#">Инстаграм</a></li>
+          <li><a href="#">Твиттер</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
